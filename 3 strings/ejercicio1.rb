@@ -5,3 +5,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def buscador(char, chain)
+  chain.include?(char)
+end
+
+print buscador(caracter, cadena)
